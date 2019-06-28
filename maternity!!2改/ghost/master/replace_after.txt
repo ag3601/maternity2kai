@@ -1,0 +1,25 @@
+‚³‚ñ‚³‚ñ	‚³‚ñ
+‚¿‚á‚ñ‚³‚ñ	‚¿‚á‚ñ
+‚­‚ñ‚³‚ñ	‚­‚ñ
+c	c\w4
+d	d\w3
+E	E\w3
+
+A	A\w9
+B	B\w9\w5
+ô	ô\w9\w5
+
+§	\w9\w5
+
+‡@	\_b[sai\\sa1s,inline,opaque]
+‡A	\_b[sai\\sa2s,inline,opaque]
+‡B	\_b[sai\\sa3s,inline,opaque]
+‡C	\_b[sai\\sa4s,inline,opaque]
+‡D	\_b[sai\\sa5s,inline,opaque]
+‡E	\_b[sai\\sa6s,inline,opaque]
+
+Í2	\_b[mark2.png,inline]\_b[mark2.png,inline]\w9\w5
+Í	\_b[mark2.png,inline]\w9\w5
+
+
+\![open,browser	\\![open,browser

@@ -1,0 +1,14 @@
+charset,Shift_JIS
+
+craftman,dennzi
+craftmanw,電磁
+craftmanurl,https://twitter.com/AG3601/status/1144338290532921344
+
+name,maternity!!2（仮）改
+type,ghost
+
+sakura.name,マカナ
+kero.name,娘
+
+
+shiori,satori.dll

@@ -1,0 +1,8 @@
+charset, Shift_JIS
+type,ghost
+name,maternity!!2i‰üj
+directory,maternity!!2
+
+refresh,1
+refreshundeletemask,satori_savedata.txt
+balloon.directory,B_maternity
