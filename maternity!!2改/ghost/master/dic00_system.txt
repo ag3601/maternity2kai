@@ -1,0 +1,79 @@
+＃【ShioriEcho】設定
+＃「らふらんす」などShioriEchoを利用したツールを使う場合、
+＃この単語群をコメントアウトしてください。
+＃（セキュリティ上、コメントアウトしてからゴーストを公開してください）
+＠ShioriEcho
+\e
+
+＃【KillDangerousTag関数】
+＃レゴキチさんに作っていただいた、危険なタグをつぶすための関数。
+＃呼び出し方は一行下に。
+＃（call（バイト値、１）KillDangerousTag（バイト値、１）[SakuraScript]）
+
+
+＠KillDangerousTag
+（
+	set
+	,単語群「DangerousTag」の重複回避
+	,降順、トーク中
+）（
+	set
+	,n
+	,（単語群「DangerousTag」の数）
+）（
+	set
+	,引数区切り追加
+	,（バイト値、２）
+）（
+	call
+	（バイト値、１）KillDangerousTag2
+	（バイト値、１）（A0）
+）（
+	set
+	,SaveDangerousTag
+	,
+）（
+	set
+	,n
+	,
+）（
+	set
+	,引数区切り削除
+	,（バイト値、２）
+）
+
+＠KillDangerousTag2
+（
+	set
+	,n
+	,（calc,（n）-1）
+）（
+	set
+	（バイト値、１）SaveDangerousTag
+	（バイト値、１）（DangerousTag）
+）（
+	（
+		unless
+		（バイト値、１）（n）==-1
+		（バイト値、１）
+			call
+			（バイト値、２）KillDangerousTag2
+			（バイト値、２）（
+				replace
+				（バイト値、１）（A0）
+				（バイト値、１）（SaveDangerousTag）
+				（バイト値、１）\（SaveDangerousTag）
+			）
+		（バイト値、１）A0
+	）
+）
+
+＠DangerousTag＃	悪意あるタグリスト
+\![vanishbymyself
+\![raise
+\![open,browser
+\j[
+\![execute,http
+\![enter,passive
+\![enter,induction
+＃追加可能です。
