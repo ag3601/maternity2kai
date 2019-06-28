@@ -3,6 +3,8 @@ charset,Shift_JIS
 craftman,dennzi
 craftmanw,“d¥
 craftmanurl,https://twitter.com/AG3601/status/1144338290532921344
+homeurl,https://github.com/ag3601/maternity2kai/tree/master/maternity!!2kai
+
 
 name,maternity!!2i‰¼j‰ü
 type,ghost
