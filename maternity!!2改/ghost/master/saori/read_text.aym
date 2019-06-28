@@ -1,0 +1,381 @@
+
+
+// SAORIのアンロード時に自動的に呼ばれる
+Read.Unload
+{
+	// 変数が保存されないように削除する
+	ERASEVAR("bun")
+	ERASEVAR("bun2")
+	ERASEVAR("br")
+	ERASEVAR("tab")
+	ERASEVAR("e")
+	ERASEVAR("nfound")
+	ERASEVAR("filepath")
+	ERASEVAR("filepath2")
+	ERASEVAR("dpath")
+	ERASEVAR("savefile")
+	ERASEVAR("mode")
+	ERASEVAR("hensu")
+}
+
+
+Read.SaveData
+{
+	// 引数が足りないなど、不正時は-1を返す（400 Bad Request）
+	if ARRAYSIZE(REQ.ARGS) < 2 {
+		// 例外発生時には、LOGGINGを行うことを推奨します。
+		LOGGING("Read.SaveData: 引数が不足しています")
+		-1
+		return
+	}
+	RES.VALUE0 = -2
+	RES.VALUE1 = -1
+	RES.VALUE2 = "none"
+	RES.VALUE3 = "none"
+
+	// REQ.ARGUMENT1の末尾が\ならフルパスとして認識
+	if (RE_GREP( REQ.ARGUMENT1,'\\$'))>=1 {dpath=REQ.ARGUMENT1}
+	else {dpath="..\..\..\..\%(REQ.ARGUMENT1)\"}
+
+	// ディレクトリが存在するかどうか調べる
+	_sonzai = FATTRIB ( "%(dpath)ghost\master" )
+
+	// 存在するならセーブファイルを探す
+	// 里々は satori_savedata.txt
+	// 文は aya_variable.cfg か AYA5_variable.cfg
+
+	if _sonzai != -1  {
+	  // セーブファイル名が指定されてなかったら自動検索
+	  if (ISVAR("REQ.ARGUMENT4"))==0 || REQ.ARGUMENT4=="" {
+		_raretu = FENUM ("%(dpath)ghost\master")
+		_raretu = SPLIT (_raretu, ",")
+		_f=0
+		mode="none"
+		  foreach _raretu ; _f {
+		  _f = (TOLOWER(_f))
+
+			if _f=="satori_savedata.txt"
+			{
+				savefile = _f
+				mode="satori"
+				break
+			}
+			elseif (RE_GREP( _f,'^dict-'))>=1 && 'save' _in_ _f
+				{ 
+				savefile = _f
+				mode="kawari"
+				break
+				}
+			elseif _f=="misaka_vars.txt"
+				{ 
+				savefile = _f
+				mode="misaka"
+				break
+				}
+			elseif (RE_GREP( _f,'_variable.cfg$'))>=1
+				{ 
+				savefile = _f
+				mode="aya"
+				break
+				}
+		  }
+
+		filepath = "%(dpath)ghost\master\%(savefile)"
+	   }
+	   // セーブファイル名が指定されてたら探す
+	   else
+	   {
+	   _raretu = FENUM ("%(dpath)ghost\master")
+	   _raretu = SPLIT (_raretu, ",")
+	   	if (ASEARCH(REQ.ARGUMENT4, _raretu))!=-1 {
+		savefile = REQ.ARGUMENT4
+	   	filepath = "%(dpath)ghost\master\%(savefile)"
+	   	}
+	   	else {mode="none"}
+	   }
+	}
+	
+	// 栞が指定されていたらいれる
+	if mode!="none"&&(ISVAR("REQ.ARGUMENT3"))!=0 && REQ.ARGUMENT5!="" {
+		if REQ.ARGUMENT5=="aya" || REQ.ARGUMENT5=="satori" || REQ.ARGUMENT5=="kawari" {
+		mode=REQ.ARGUMENT5
+		}
+		else {mode="none"}
+	}
+	
+	nfound = "notfound"
+	if (ISVAR("REQ.ARGUMENT3"))!=0 && REQ.ARGUMENT3!="" { nfound = REQ.ARGUMENT3 }
+	RES.RESULT = nfound
+	
+	// セーブデータがないならnotfoundを返す
+	if _sonzai == -1 || mode=="none" {
+		if mode=="none" {RES.VALUE0 = 0 ; RES.RESULT = nfound }
+		if _sonzai == -1 {RES.VALUE0 = -1 ; RES.RESULT = nfound }
+		}
+	else {
+		// セーブデータがあるなら読み取り開始
+		_s=FOPEN ( filepath , "r" )
+		bun=""
+		_i=0
+		e=0
+		_gyou=0
+		hensu=0
+			while _gyou != -1 && _i<5000 {
+			_gyou = FREAD ( filepath )
+				// 里々の時
+				if mode=="satori"{
+					// 変数がみつかったら読み取る
+					if "＄%(REQ.ARGUMENT2)%(CHR(0x09))" _in_ _gyou {
+					RES.RESULT = REPLACE(_gyou,"＄%(REQ.ARGUMENT2)%(CHR(0x09))","")
+					e++
+					}
+					// 先頭に＄が付いてたら変数として数える
+					if (STRSTR(_gyou,"＄",0))==0 {
+					hensu++
+					}
+				}
+				// 文の時
+				if mode=="aya" {
+					// 先頭に「変数名,」がみつかったら読み取る
+					if (STRSTR(_gyou,"%(REQ.ARGUMENT2)%(CHR(0x2c))",0))==0 {
+					//「,,」を削除
+					_a = REPLACE(_gyou,"%(CHR(0x2c))%(CHR(0x2c))","")
+					//「変数名,」を削除
+					_a = REPLACE(_a,"%(REQ.ARGUMENT2)%(CHR(0x2c))","")
+					//「"」を削除
+					RES.RESULT = REPLACE(_a,"%(CHR(0x22))","")
+					e++
+					}
+					
+					// %(CHR(0x2c))%(CHR(0x2c))が入ってたら変数として数える
+					if "%(CHR(0x2c))%(CHR(0x2c))"_in_ _gyou {
+					hensu++
+					}
+				}
+				// 華和梨の時
+				// 先頭に#が付いてたら変数として数える
+				if mode=="kawari"&&(STRSTR(_gyou,"%(CHR(0x23))%(CHR(0x20))Entry",0))==0 {
+					hensu++
+				}
+				// 変数がみつかったら読み取る
+				if mode=="kawari" && (STRSTR(_gyou,"%(REQ.ARGUMENT2)%(CHR(0x20))%(CHR(0x3a))%(CHR(0x20))",0))==0 {
+					//「変数名 : 」を削除
+					_k = REPLACE(_gyou,"%(REQ.ARGUMENT2)%(CHR(0x20))%(CHR(0x3a))%(CHR(0x20))","")
+					//「"」を削除
+					RES.RESULT = REPLACE(_k,"%(CHR(0x22))","")
+					e++
+				}
+				// 美坂の時
+				if mode=="misaka"{
+					//　先頭に「$変数名,」がみつかったら読み取る
+					if  (STRSTR(_gyou,"$%(REQ.ARGUMENT2)%(CHR(0x2c))",0))==0 {
+					//「$変数名,」を削除
+					RES.RESULT = REPLACE(_gyou,"$%(REQ.ARGUMENT2)%(CHR(0x2c))","")
+					e++
+					}
+					// 先頭に$が付いてたら変数として数える
+					if (STRSTR(_gyou,"$",0))==0 {
+					hensu++
+					}
+				}
+			_i++
+    			}
+		if e ==0 { RES.RESULT = nfound }
+		FCLOSE ( filepath )
+		RES.VALUE0 = 1
+		RES.VALUE1 = hensu
+
+	}
+
+RES.VALUE2 = mode
+RES.VALUE3 = savefile
+
+if RES.VALUE0 < 1 {
+	RES.VALUE2 = "none"
+	RES.VALUE3 = "none"
+	}
+if (ISVAR("RES.VALUE2"))==0 || RES.VALUE2=="" { RES.VALUE2 = "none" }
+if (ISVAR("RES.VALUE3"))==0 || RES.VALUE3=="" { RES.VALUE3 = "none" }
+
+}
+
+
+
+
+
+Read.Text
+{
+	// 引数が足りないなど、不正時は-1を返す（400 Bad Request）
+	if ARRAYSIZE(REQ.ARGS) < 1 {
+		// 例外発生時には、LOGGINGを行うことを推奨します。
+		LOGGING("Read.Text: 引数が不足しています")
+		-1
+		return
+	}
+
+	filepath = REQ.ARGUMENT1
+	_zokusei = FATTRIB ( filepath )[0]
+	
+	nfound = "file_notfound"
+	if (ISVAR("REQ.ARGUMENT2"))!=0 && REQ.ARGUMENT2!="" { nfound = REQ.ARGUMENT2 }
+	RES.VALUE0 = nfound
+	
+	if _zokusei == 0 || _zokusei == -1 {
+		RES.RESULT = nfound
+		}
+	else {
+		br = "_BR_"
+		if (ISVAR("REQ.ARGUMENT3"))!=0 && REQ.ARGUMENT3!="" { br = REQ.ARGUMENT3 }
+		
+		tab = "_TAB_"
+		if (ISVAR("REQ.ARGUMENT4"))!=0 && REQ.ARGUMENT4!="" { tab = REQ.ARGUMENT4 }
+		
+		FOPEN ( filepath , "r" )
+		bun2=""
+		_i=0
+		_gyou=0
+			while _gyou != -1 && _i<5000 {
+				_gyou = FREAD ( filepath )
+				if _i==0 {bun2 = "%(_gyou)"}
+				elseif _gyou==-1 {}
+				else {bun2 = "%(bun2)%(br)%(_gyou)"}
+				_i++
+    			}
+		FCLOSE ( filepath )
+		bun2 = REPLACE (bun2,"%(CHR(0x09))",tab)
+		RES.RESULT = bun2
+		RES.VALUE0 = _i - 1
+		}
+}
+
+
+
+
+
+
+Read.Shell
+{
+	// 引数が足りないなど、不正時は-1を返す（400 Bad Request）
+	if ARRAYSIZE(REQ.ARGS) < 1 {
+		// 例外発生時には、LOGGINGを行うことを推奨します。
+		LOGGING("Read.Shell: 引数が不足しています")
+		-1
+		return
+	}
+
+	nfound = "notfound"
+	if (ISVAR("REQ.ARGUMENT3"))!=0 && REQ.ARGUMENT3!="" { nfound = REQ.ARGUMENT3 }
+	RES.RESULT = nfound
+	RES.VALUE0 = nfound
+
+
+	// REQ.ARGUMENT1の末尾が\ならフルパスとして認識
+	if (RE_GREP( REQ.ARGUMENT1,'\\$'))>=1 {dpath=REQ.ARGUMENT1}
+	else {dpath="..\..\..\..\%(REQ.ARGUMENT1)\"}
+
+
+	// SSP、又は無記述のとき
+	if REQ.ARGUMENT2=="SSP" || (ISVAR("REQ.ARGUMENT2"))==0 {
+		// ghost.datが存在するかどうか調べる
+		filepath = "%(dpath)ghost\master\profile\ghost.dat"
+		_sonzai = FATTRIB ( filepath )
+			// 存在するなら読み取り開始
+			if _sonzai != -1  { GhostDat }
+	}
+	// SSP以外のとき
+	else {
+		// profile.txtが存在するかどうか調べる
+		filepath = "%(dpath)profile.txt"
+		_sonzai = FATTRIB ( filepath )
+			// 存在するなら読み取り開始
+			if _sonzai != -1  { ProfileTxt }
+	}
+RES.VALUE1 = REQ.ARGUMENT2
+}
+
+
+// ghost.dat読み取り
+
+GhostDat {
+
+		// 「shell,～」項目が見付からなかった
+		RES.RESULT = "master"
+		FOPEN ( filepath , "r" )
+		_i=0
+		_gyou=0
+			while _gyou != -1 && _i<5000 {
+			_gyou = FREAD ( filepath )
+			// 先頭に「shell」が見付かった
+				if (STRSTR(_gyou,"shell",0))==0 {
+				//「\」を削除
+				_txt = REPLACE(_gyou,"\","")
+				//「shell,shell」を削除
+				RES.RESULT = REPLACE(_txt,"shell%(CHR(0x2c))shell","")
+				_i=6000
+				}
+			_i++
+			}
+		FCLOSE ( filepath )
+
+// シェル名取得
+ShellName
+
+}
+
+
+// profile.txt読み取り
+
+
+ProfileTxt {
+
+		// 「lastshell,～」項目が見付からなかった
+		RES.RESULT = "master"
+		FOPEN ( filepath , "r" )
+		_i=0
+		_gyou=0
+			while _gyou != -1 && _i<5000 {
+			_gyou = FREAD ( filepath )
+			// 先頭に「lastshell」が見付かった
+				if (STRSTR(_gyou,"lastshell",0))==0 {
+				//「\」を削除
+				_txt = REPLACE(_gyou,"\","")
+				//「lastshell,」を削除
+				RES.RESULT = REPLACE(_txt,"lastshell%(CHR(0x2c))","")
+				_i=6000
+				}
+			_i++
+			}
+		FCLOSE ( filepath )
+
+// シェル名取得
+ShellName
+
+}
+
+
+// シェルのなまえ取得
+ShellName {
+
+	filepath2 = "%(dpath)shell\%(RES.RESULT)\descript.txt"
+	_sonzai2 = FATTRIB ( filepath2 )
+		if _sonzai2 != -1  {
+		FOPEN ( filepath2 , "r" )
+		_i2=0
+		_gyou2=0
+			while _gyou2 != -1 && _i2<5000 {
+			_gyou2 = FREAD ( filepath2 )
+			// 先頭に「name」が見付かった
+				if (STRSTR(_gyou2,"name",0))==0 {
+				//「name,」を削除
+				RES.VALUE0 = REPLACE(_gyou2,"name%(CHR(0x2c))","")
+				_i2=6000
+				}
+			}
+
+		FCLOSE ( filepath2 )
+		}
+
+}
+
+
+
