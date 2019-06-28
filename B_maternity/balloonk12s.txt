@@ -1,0 +1,7 @@
+windowposition.x,0
+windowposition.y,0
+
+font.height,12
+font.color.r,77
+font.color.g,77
+font.color.b,77
