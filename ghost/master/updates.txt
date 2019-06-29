@@ -173,7 +173,7 @@ file,ghost/master/Sdaughter3ONL/dic58_Sd3talkONL.txt115925b6f893d617c728bc15132
 file,ghost/master/Sdaughter3ONL/dic59_Sd3SawariONL.txtc22b468fed3d7ad30e7e780a02615d82size=7952
 file,ghost/master/Sdaughter3ONL/dic61_Sd3TimeONL.txt3593816bc2133e9905f0e1fe69cae77fsize=3465
 file,install.txt5cd2d8f9755fbeb3919b1a0a4f7e0f2csize=164
-file,readme.txte0536f7c99b69d598ac3b5615d3c82a0size=6888
+file,readme.txtb18e51a4c7a310b599d6671a99018783size=6699
 file,shell/48/descript.txt0b2d9b7a00ae82c86fd99fea0de86b89size=2880
 file,shell/48/install.txt95eb28ba41d18b40a29aec83b010e4absize=71
 file,shell/48/readme.txtbe3875c07c26de5635342c0c6cbd5b59size=269
