@@ -1,7 +1,7 @@
 charset, Shift_JIS
 type,ghost
-name,maternity!!2i‰üj
-directory,maternity!!2
+name,maternity!!2‰ü
+directory,maternity2kai
 
 refresh,1
 refreshundeletemask,satori_savedata.txt

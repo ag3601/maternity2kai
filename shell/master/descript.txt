@@ -143,15 +143,15 @@ kero.bindgroup801.name,汗２,汗
 kero.bindgroup1000.name,娘下着下,パンツ
 kero.bindgroup1000.default,1
 
-kero.bindgroup2000.name,娘下着上,ブラジャー桃
+kero.bindgroup2000.name,娘下着上,ブラジャー
 kero.bindgroup2000.default,1
-kero.bindgroup2001.name,娘下着上,ブラジャー桃ズレ
+kero.bindgroup2001.name,娘下着上,ブラジャー・ズレ
 
 
-kero.bindgroup4000.name,娘服下,スカート灰
+kero.bindgroup4000.name,娘服下,娘初期服下
 kero.bindgroup4000.default,1
 
-kero.bindgroup5000.name,娘服上,シャツ青
+kero.bindgroup5000.name,娘服上,娘初期服上
 kero.bindgroup5000.default,1
 
 
