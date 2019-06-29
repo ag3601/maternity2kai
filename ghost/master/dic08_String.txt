@@ -37,7 +37,7 @@ shiori互換dll『里々（さとり）』用辞書
 
 
 ＠homeurl
-https://raw.githubusercontent.com/ag3601/maternity2kai
+https://raw.githubusercontent.com/ag3601/maternity2kai/master/
 ＠username
 （ユーザ名）
 
