@@ -136,7 +136,7 @@ file,ghost/master/saori/ssu.dll58b61d7c681e7a8aa27b2f03bfcd48d7size=253952
 file,ghost/master/satori.dllf5610fc26a0a620dc4ed6296a91acabcsize=684032
 file,ghost/master/satori_conf.txtbf5d48b2791fb195a49af4291cb28ffcsize=10380
 file,ghost/master/satori_license.txt078ffc36f3374648bf523ae197f4765csize=944
-file,ghost/master/satori_savebackup.txt107ee82a9f08e387c4c90d233376ff3esize=6466
+file,ghost/master/satori_savebackup.txtab78da9d47e710e17f40638b5eaf117bsize=6486
 file,ghost/master/Sdaughter1/dic26_Sd1Base.txt483401aba9b12ca44d43d61664c7aaebsize=331
 file,ghost/master/Sdaughter1/dic27_Sd1Menu.txt00ac6e53158d0c4cc324b957d82e5b52size=5461
 file,ghost/master/Sdaughter1/dic28_Sd1talk.txte1c5ef0927f85d6309cba59f2ed708d9size=7907
@@ -173,6 +173,7 @@ file,ghost/master/Sdaughter3ONL/dic58_Sd3talkONL.txt115925b6f893d617c728bc15132
 file,ghost/master/Sdaughter3ONL/dic59_Sd3SawariONL.txt04b3e79cbb295ed06ab6c3b5e5ed1fa4size=40381
 file,ghost/master/Sdaughter3ONL/dic61_Sd3TimeONL.txt3593816bc2133e9905f0e1fe69cae77fsize=3465
 file,install.txt24e57e133d85b01f98787c5bcda08d67size=161
+file,README.md218bf75728e145c77b951197a2737476size=235
 file,readme.txtb18e51a4c7a310b599d6671a99018783size=6699
 file,shell/48/descript.txt0b2d9b7a00ae82c86fd99fea0de86b89size=2880
 file,shell/48/install.txt95eb28ba41d18b40a29aec83b010e4absize=71
