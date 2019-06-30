@@ -1,7 +1,7 @@
 charset,Shift_JIS
 
 craftman,dennzi
-craftmanw,電磁
+craftmanw,電磁、　AG3601
 craftmanurl,https://github.com/ag3601/maternity2kai
 
 
