@@ -1325,6 +1325,17 @@ animation23.interval,runonce
 animation23.pattern0,overlay,15800,0,65,110
 }
 
+surface741
+{
+animation20.interval,runonce
+animation20.pattern0,overlay,15500,0,55,75
+animation21.interval,runonce
+animation21.pattern0,overlay,15630,0,65,95
+animation22.interval,runonce
+animation22.pattern0,overlay,15700,0,85,130
+animation23.interval,runonce
+animation23.pattern0,overlay,15810,0,65,110}
+
 surface742
 {
 animation20.interval,runonce
