@@ -2,3 +2,4 @@
 .gitattributes,nonar,noupdate
 .git/,nonar,noupdate
 .README.md
+.satori_save,noupdate
