@@ -1,6 +1,7 @@
-.gitignore,nonar,noupdate
-.gitattributes,nonar,noupdate
-.git/,nonar,noupdate
-.README.md
-.satori_save,noupdate
-.profile/
+gitignore,nonar,noupdate
+gitattributes,nonar,noupdate
+git/,nonar,noupdate
+README.md,nonar,noupdate
+satori_savedata.txt,nonar,noupdate
+profile/,nonar,noupdate
+satori_savebackup.txt,nonar,noupdate
