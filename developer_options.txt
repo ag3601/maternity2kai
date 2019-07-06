@@ -2,6 +2,8 @@ gitignore,nonar,noupdate
 gitattributes,nonar,noupdate
 git/,nonar,noupdate
 README.md,nonar,noupdate
-satori_savedata.txt,nonar,noupdate
-profile/,nonar,noupdate
-satori_savebackup.txt,nonar,noupdate
+ghost/master/satori_savedata.txt,nonar,noupdate
+ghost/master/profile/,nonar,noupdate
+ghost/master/satori_savebackup.txt,nonar,noupdate
+shell/master/profile/,nonar,noupdate
+shell/48/profile/,nonar,noupdate
