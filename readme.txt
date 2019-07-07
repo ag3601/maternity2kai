@@ -1,7 +1,5 @@
 maternity!!2（仮）にmaternity!!の機能を移植したものですがまだデバッグ中ですので上手く作動しない部分も多いです。元作者様への問い合わせはご遠慮下さい。
 
-https://github.com/ag3601/maternity2kai
-
 https://twitter.com/AG3601
 
 

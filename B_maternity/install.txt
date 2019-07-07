@@ -1,8 +1,0 @@
-type,balloon
-name,maternityバルーン（仮）
-accept,マカナ
-directory,B_maternity
-refresh,1
-script,\h\s[0]「%lastobjectname」\n\nのインストールが無事に終了しました。\e
-
-
