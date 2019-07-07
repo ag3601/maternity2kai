@@ -1,2 +1,1 @@
-ghost\master\dic18_PillowTalk.txt
-ghost\master\Dtes.txt
+ghost\master\ideas.txt
