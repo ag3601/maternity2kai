@@ -1,7 +1,7 @@
 charset,Shift_JIS
 
-craftman,dennzi
-craftmanw,“d¥A@AG3601
+craftman,AG3601
+craftmanw,AG3601
 craftmanurl,https://github.com/ag3601/maternity2kai
 
 
