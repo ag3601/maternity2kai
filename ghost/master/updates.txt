@@ -20,7 +20,7 @@ file,ghost/master/daughter3/dic52_d3talk.txtad2c85bcfce0be67fd652b2068a9effbsi
 file,ghost/master/daughter3/dic53_d3Sawari.txtb112a6ef614caece03e8e42c9c9fca17size=4908
 file,ghost/master/daughter3/dic54_d3SawariM.txt6e3e3cf5eeff818875541904cf071974size=8452
 file,ghost/master/daughter3/dic55_d3Time.txtaf72c8450fa3d018192c8f2c5dc1340asize=2571
-file,ghost/master/descript.txt7419d9addd911c4b8672208eaf4f17d1size=219
+file,ghost/master/descript.txtf69e873a523b899137babb19de351444size=211
 file,ghost/master/dic00_system.txtd675589f45e04f93be9989a852e40893size=1391
 file,ghost/master/dic01_BaseS.txte29f165058bc16dc295c8ce3a3991e5esize=5079
 file,ghost/master/dic02_dBaseSall.txt3e39bea8dbe6dc172dad6e8761743695size=8505
@@ -47,6 +47,7 @@ file,ghost/master/dic41_Sd2BaseS.txt20051a1b0f933ffd393cf7f6030e9100size=5022
 file,ghost/master/dic56_Sd3BaseS.txt3c1fc825dee911cfbe57b043c94ae9f5size=5859
 file,ghost/master/dic98_Self.txtcf67ffea6bfb27f93c3a79dc1bd3db5esize=11069
 file,ghost/master/exmemo.txtba8fbba102e2e9eaa9d13a5f19508047size=1939
+file,ghost/master/ideas.txt20f92d8cc5d4d31c59dcfb224535a353size=1229
 file,ghost/master/makana/dic01_Base.txt1fdd0f9e5c36959c4b155dd178766001size=1151
 file,ghost/master/makana/dic02_Menu.txt0f4147befab41af19393391bb6220a84size=10344
 file,ghost/master/makana/dic03_Menu2.txt17249be1dcb020ac6ebce941e2712dcesize=11266
