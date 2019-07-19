@@ -140,7 +140,7 @@ file,ghost/master/Sdaughter3ONL/dic58_Sd3talkONL.txt115925b6f893d617c728bc15132
 file,ghost/master/Sdaughter3ONL/dic59_Sd3SawariONL.txt7f06d9c84c49bcdd25fbd4b26f6d3e84size=40648
 file,ghost/master/Sdaughter3ONL/dic61_Sd3TimeONL.txt3593816bc2133e9905f0e1fe69cae77fsize=3465
 file,install.txt24e57e133d85b01f98787c5bcda08d67size=161
-file,readme.txtb8bd8732428e36607a6940cb0511e070size=6656
+file,readme.txt7e772c95484683948e28ee28f72286f6size=6742
 file,shell/48/descript.txt0b2d9b7a00ae82c86fd99fea0de86b89size=2880
 file,shell/48/install.txt95eb28ba41d18b40a29aec83b010e4absize=71
 file,shell/48/readme.txtbe3875c07c26de5635342c0c6cbd5b59size=269
