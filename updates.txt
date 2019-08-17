@@ -22,7 +22,7 @@ file,ghost/master/daughter3/dic54_d3SawariM.txt53ddd79e7d9818ef67bf793f0c1e0fca
 file,ghost/master/daughter3/dic55_d3Time.txtd6b7ac09c773db2d5cc0f62e0abca5c6size=2452
 file,ghost/master/descript.txtab818adf14f2053bca9ee8e2a96e4381size=196
 file,ghost/master/dic00_system.txt1a85d29991b437fa2d131be49434b534size=1313
-file,ghost/master/dic01_BaseS.txte8e8dd51c6c604c25b6f1cfc0462a39bsize=4798
+file,ghost/master/dic01_BaseS.txt5b4309d55004bfddd1e389efeb1d4fd7size=4801
 file,ghost/master/dic02_dBaseSall.txt61d6217bab14e447a43640c0741652eesize=8198
 file,ghost/master/dic03_Sd1BaseS.txt8026bea6522c15eeec60e4aeb895fc72size=6287
 file,ghost/master/dic04_Sd2BaseS.txt6a3ce3b0a7c481247990595337a12a22size=4828
@@ -55,7 +55,7 @@ file,ghost/master/makana/dic06_Time.txtd803e7f430274eb9eba8410bc20d1916size=11
 file,ghost/master/makana/dic07_Sawari1.txt62369738e4a8c747ad8cf0b69a6b1578size=45586
 file,ghost/master/makana/dic08_Sawari2.txt8565a4e15052f08831b7c3a79e457777size=45891
 file,ghost/master/makana/dic09_Sawari3.txtd52800286e4ffaf1f3156b0de60565d8size=31153
-file,ghost/master/makana/dic10_talk.txt7fcfc96eb68067c1d3d3bce9eee23de8size=18875
+file,ghost/master/makana/dic10_talk.txta3bb763df5a0d53844ad412c51a65580size=20268
 file,ghost/master/makana/dic11_talkEX.txtdf6c5ebbfa6ca690be2a5bfc356c84b0size=2739
 file,ghost/master/makana/dic12_Babytalk.txtb6e69a14c371f06ad6bd085e878cc715size=1447
 file,ghost/master/makana/dic13_SawariEX.txtcdc416504ea6788757d1dfbd240a4257size=5257
