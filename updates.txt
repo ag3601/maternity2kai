@@ -1,5 +1,5 @@
 file,.gitignore62a7fa2fe5e56a8bb9489e2987c34239size=100
-file,delete.txt69055221642e9d9378525f6e80f665e7size=23
+file,delete.txt3c730e9d18ff8fe69980f46b8fbd7c9esize=35
 file,developer_options.txtda45a2ee657a3e974026315c51268049size=303
 file,ghost/master/characters.ini6c54e9bf5e3b693f8259c53a4ba44484size=212
 file,ghost/master/daughter1/dic20_d1Base.txt5808d3b8e8dd945603ccd3fd2b4e3c7bsize=448
