@@ -20,7 +20,7 @@
 ＞COMMUNICATE該当なしユ	（count,（Ｒ０）,user）
 
 ＊COMMUNICATE該当なしユ
-\![execute,http-post,http://clap.webclap.com/clap.php?id=dennzi,--param=message_body="マカナコミュ：「（コミュ内容）」",--async=WebClap,--timeout=2]
+\![execute,http-post,http://clap.webclap.com/clap.php?id=ag36,--param=message_body="マカナコミュ：「（コミュ内容）」",--async=WebClap,--timeout=2]
 
 ＊ユーザ「　愛してる
 ＞愛してる

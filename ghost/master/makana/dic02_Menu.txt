@@ -252,7 +252,7 @@
 
 ＊コメント内容を教えてもらった
 ＄コメＦ＝１
-\![execute,http-post,http://clap.webclap.com/clap.php?id=dennzi@2,--param=message_body="maternity!!2_Ｃ：（コメント内容）",--async=WebClap,--timeout=2]
+\![execute,http-post,http://clap.webclap.com/clap.php?id=ag36@2,--param=message_body="maternity!!2_Ｃ：（コメント内容）",--async=WebClap,--timeout=2]
 
 ＊OnExecuteHTTPComplete
 ＞（Ｒ１）Complete	（コメＦ）＝＝１
