@@ -612,10 +612,10 @@ animation741.pattern0,add,32303,0,60,110
 animation760.interval,runonce
 animation760.pattern0,overlay,32000,0,60,75
 animation750.interval,rarely+runonce
-animation750.pattern0,overlay,32106,0,60,90
+animation750.pattern0,overlay,32105,0,60,90
 animation750.pattern1,overlay,32103,80,60,90
 animation750.pattern2,overlay,32102,80,60,90
-animation750.pattern3,overlay,32106,80,60,90
+animation750.pattern3,overlay,32105,80,60,90
 
 animation761.interval,runonce
 animation761.pattern0,overlay,32205,0,80,125
@@ -2313,7 +2313,7 @@ animation750.pattern2,overlay,102102,80,70,80
 animation750.pattern3,overlay,102100,80,70,80
 
 animation761.interval,runonce
-animation761.pattern0,overlay,102202,0,94,119
+animation761.pattern0,overlay,102203,0,94,119
 animation738.interval,runonce
 animation738.pattern0,overlay,102300,0,75,95
 }
@@ -2546,7 +2546,7 @@ animation750.interval,runonce
 animation750.pattern0,overlay,102101,0,70,80
 
 animation761.interval,runonce
-animation761.pattern0,overlay,102202,0,94,119
+animation761.pattern0,overlay,102203,0,94,119
 animation738.interval,runonce
 animation738.pattern0,overlay,102300,0,75,95
 }
@@ -2641,7 +2641,7 @@ animation750.interval,runonce
 animation750.pattern0,overlay,102101,0,70,80
 
 animation761.interval,runonce
-animation761.pattern0,overlay,102202,0,94,119
+animation761.pattern0,overlay,102203,0,94,119
 animation738.interval,runonce
 animation738.pattern0,overlay,102300,0,75,95
 }
@@ -3020,7 +3020,7 @@ animation750.pattern2,overlay,102102,160,70,80
 animation750.pattern3,overlay,102103,120,70,80
 
 animation761.interval,runonce
-animation761.pattern0,overlay,102202,0,94,119
+animation761.pattern0,overlay,102203,0,94,119
 animation738.interval,runonce
 animation738.pattern0,overlay,102300,0,75,95
 }

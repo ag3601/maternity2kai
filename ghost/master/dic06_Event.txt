@@ -163,11 +163,6 @@ shiori互換dll『里々（さとり）』用辞書
 
 ＊OnInstallComplete
 ：（１）（Ｒ１）/（Ｒ０）をインストールしました。
-\![get,property,シェル数取得,currentghost.shelllist.count]
-
-
-
-
 ＊OnInstallFailure
 ：（２７）あぅ…インストールに失敗しました……。
 
@@ -439,12 +434,6 @@ shiori互換dll『里々（さとり）』用辞書
 ＄おっぱいの大きさ＝１
 \c
 ＞リロード終了
-
-＊シェル数取得
-＄シェル数＝（Ｒ０）
-
-＃＊OnShellChanging
-＃：それじゃ、着替えてきますね。
 
 ＊テスト用
 ＄今日は外出した＝０
