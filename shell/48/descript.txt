@@ -26,8 +26,8 @@ sakura.bindgroup202.name,後髪,セミロング
 sakura.bindgroup203.name,後髪,ロング
 sakura.bindgroup204.name,後髪,束ね髪２
 
-sakura.bindgroup300.name,後髪髪留め,通常赤
-sakura.bindgroup300.default,1
+//sakura.bindgroup300.name,後髪髪留め,通常赤
+//sakura.bindgroup300.default,1
 
 sakura.bindgroup400.name,体,通常
 sakura.bindgroup400.default,1

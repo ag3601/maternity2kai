@@ -2826,7 +2826,7 @@ animation203.pattern0,add,80103,0,0,0
 animation204.interval,bind
 animation204.pattern0,add,80105,0,0,0
 
-animation400.interval,runonce
+animation400.interval,bind
 animation400.pattern0,overlay,80000,0,0,0
 
 animation500.interval,bind
