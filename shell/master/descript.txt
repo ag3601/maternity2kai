@@ -68,7 +68,7 @@ sakura.bindgroup4000.default,1
 sakura.bindgroup4001.name,服下,ホットパンツ妊娠１
 
 sakura.bindgroup5000.name,服上,ノースリーブセーター
-sakura.bindgroup5000.default上,1
+sakura.bindgroup5000.default,1
 sakura.bindgroup5001.name,服上,ノースリーブセーター妊娠１
 sakura.bindgroup5002.name,服上,ノースリーブセーター妊娠２
 sakura.bindgroup5003.name,服上,バスタオル
