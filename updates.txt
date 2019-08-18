@@ -22,7 +22,7 @@ file,ghost/master/daughter3/dic54_d3SawariM.txt53ddd79e7d9818ef67bf793f0c1e0fca
 file,ghost/master/daughter3/dic55_d3Time.txt6a2fd3e393e671eb44564466fa4f799dsize=2457
 file,ghost/master/descript.txtab818adf14f2053bca9ee8e2a96e4381size=196
 file,ghost/master/dic00_system.txt1a85d29991b437fa2d131be49434b534size=1313
-file,ghost/master/dic01_BaseS.txtbeef486e493430430c9560bfbdce2708size=6110
+file,ghost/master/dic01_BaseS.txt642cfa6657cf428320b937943772ac1dsize=6018
 file,ghost/master/dic02_dBaseSall.txt61d6217bab14e447a43640c0741652eesize=8198
 file,ghost/master/dic03_Sd1BaseS.txt554d18711c498889c0e53ba3baebc35bsize=6298
 file,ghost/master/dic04_Sd2BaseS.txtdcf75a9cef792c1a49fde07343c5d81csize=4838
@@ -79,7 +79,7 @@ file,ghost/master/note.txt7c08eb738c49ddbb70798edb7b661b94size=11444
 file,ghost/master/Pillow_talk/dic00_system.txt1a85d29991b437fa2d131be49434b534size=1313
 file,ghost/master/Pillow_talk/dic01_Base.txt608e44568432b3b56c5f8fb18ba84c21size=2544
 file,ghost/master/Pillow_talk/dic02_Event.txt479daa941d3c95b19334ab568819d365size=6533
-file,ghost/master/Pillow_talk/dic03_PillowTalk.txtb735f9f5f233280e5005762962348e58size=2593
+file,ghost/master/Pillow_talk/dic03_PillowTalk.txta579bcdf05e2d6d48581cc1ca4caf156size=3110
 file,ghost/master/Pillow_talk/dic04_Menu.txta2d3bfc0372a11f93bcf1573b607e9d9size=1439
 file,ghost/master/replace.txtf052b8e9e63e57198bc35271eb58981fsize=397
 file,ghost/master/replace_after.txt26443ece91aa42dcb6b22c2667191ef6size=430
