@@ -7,3 +7,4 @@ builtins.aym
 fill_desktop.dll
 read_text.aym
 sample.aym
+ideas.txt
