@@ -45,6 +45,7 @@ file,ghost/master/dic32_Sd3ExEvent.txt261301d19f94bb39894204d4e8319bf6size=120
 file,ghost/master/dic41_Sd2BaseS.txt58470e70d15ba6aec899c7a489d179b4size=5032
 file,ghost/master/dic56_Sd3BaseS.txt73a5591e28a97da1a40a976af76d3ed6size=5869
 file,ghost/master/dic98_Self.txtcf67ffea6bfb27f93c3a79dc1bd3db5esize=11069
+file,ghost/master/exmemo.txtba8fbba102e2e9eaa9d13a5f19508047size=1939
 file,ghost/master/makana/dic01_Base.txt6fbae694819d5d16a48e6d2345136944size=1489
 file,ghost/master/makana/dic02_Menu.txt24119f54ef052d4c6bc6d8d4d885cf77size=10358
 file,ghost/master/makana/dic03_Menu2.txtae6846cb1536b3aa46e4cc3bddf7d1basize=11392
