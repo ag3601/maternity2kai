@@ -1,4 +1,4 @@
-gitignore,nonar,noupdate
+.gitignore,nonar,noupdate
 gitattributes,nonar,noupdate
 git/,nonar,noupdate
 README.md,nonar,noupdate
