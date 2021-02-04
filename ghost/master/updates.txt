@@ -1,5 +1,5 @@
 file,delete.txtdbb3c91ea78e0d17c7c6c514bb74bf9fsize=126
-file,developer_options.txt3ddf401961a96bbc1db087f64c881fa5size=304
+file,developer_options.txt7c9cf19177da0d5a245c000e444bd0f9size=306
 file,ghost/master/characters.ini6c54e9bf5e3b693f8259c53a4ba44484size=212
 file,ghost/master/daughter1/dic20_d1Base.txt6f5f04ad54bf51e870334acda8a0cea7size=456
 file,ghost/master/daughter1/dic21_d1Menu.txt56065ec619cda508eba27ab86c9633c3size=3458
