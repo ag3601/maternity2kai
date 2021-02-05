@@ -243,6 +243,7 @@ char3.bindgroup100.name,娘下着下,パンツ
 char3.bindgroup100.default,1
 char3.bindgroup101.name,娘下着下,スパッツ
 char3.bindgroup150.name,娘下着上,スポブラ
+char3.bindgroup150.default,1
 
 
 char3.bindgroup400.name,娘服下,娘初期服下
