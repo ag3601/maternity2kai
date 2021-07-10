@@ -32,7 +32,7 @@ file,ghost/master/dic08_String.txtf5a19840d834b1cbd1072166edae381dsize=840
 file,ghost/master/dic09_ExEvent.txtbd09bfa0e2f35c3121ee06d612a22a5fsize=5393
 file,ghost/master/dic10_Start.txtd27689aaca587e55db0980ce339a04a4size=10919
 file,ghost/master/dic11_Pregnancy.txt48789fbf2029dde23155387e6bedc6c0size=21440
-file,ghost/master/dic12_Info.txtccdbb0425290d680e1a0225fc0ac7969size=2858
+file,ghost/master/dic12_Info.txtfba0e9c13e24d08b4dfb71d316d86308size=2920
 file,ghost/master/dic13_Self.txt49ab9dadc2ed06e877b1b328bc735742size=12554
 file,ghost/master/dic14_Go.txtc5e43f4cd4495b0d2e994a4425766d7dsize=9944
 file,ghost/master/dic15_Request.txte215a9a06acf194f8b77b9d4bdd42d9fsize=3662
@@ -77,7 +77,7 @@ file,ghost/master/Pillow_talk/dic01_Base.txt4f213f94d7fc700ff1141c6147b71bfbsi
 file,ghost/master/Pillow_talk/dic02_Event.txtff6c71b828dfb48fd036f89eff7f12acsize=6895
 file,ghost/master/Pillow_talk/dic03_PillowTalk.txta8e1493b5c34809e4f19b3fde5402031size=3203
 file,ghost/master/Pillow_talk/dic04_Menu.txt40b9314248c7ba885d08f548e49cf2b6size=1515
-file,ghost/master/replace.txtc2c26258f57e5fa7fc83ec0728105427size=427
+file,ghost/master/replace.txtf94e7aebdf0ad80c4848c5e2cb4f7450size=419
 file,ghost/master/replace_after.txt26443ece91aa42dcb6b22c2667191ef6size=430
 file,ghost/master/sai/down.png4c313f9620a4350d70bad9d0ee225e90size=879
 file,ghost/master/sai/sa1.pnge8f41662ec726d0d95b0e6c6b10e7772size=886
