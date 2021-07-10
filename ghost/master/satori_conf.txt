@@ -450,8 +450,6 @@
 
 
 ÅóSAORI
-fill_desktop,saori/fill_desktop.dll
-fill_red,saori/fill_desktop.dll,255,0,0
 calc,saori/ssu.dll,calc
 calc_float,saori/ssu.dll,calc_float
 if,saori/ssu.dll,if
