@@ -1,10 +1,6 @@
-updates2.dau
-aya5.dll
-aya5.txt
-aya5_variable.cfg
-ayasaori.aym
-builtins.aym
 fill_desktop.dll
-read_text.aym
 sample.aym
 ideas.txt
+dic26_Sd1BaseS.txt
+dic41_Sd2BaseS.txt
+dic56_Sd3BaseS.txt
