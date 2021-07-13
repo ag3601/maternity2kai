@@ -111,7 +111,7 @@ file,ghost/master/Sdaughter1/dic31_Sd1Time.txtac19283bd4556bf381e8639216d1124a
 file,ghost/master/Sdaughter1/dic32_Sd1Ex.txt908ee1c94fadd49fdb3dc3a00aceb1f1size=1917
 file,ghost/master/Sdaughter1/dic33_Sd1SawariONL.txtd41d8cd98f00b204e9800998ecf8427esize=0
 file,ghost/master/Sdaughter1ONL/dic26_Sd1BaseONL.txtb0dffe714794443a2969fd2c48df45a6size=565
-file,ghost/master/Sdaughter1ONL/dic27_Sd1MenuONL.txtfa22d07d50d35a27360556c7ea499559size=3259
+file,ghost/master/Sdaughter1ONL/dic27_Sd1MenuONL.txt5b99959b8bd8cede7f2bfdbf40e5a384size=3411
 file,ghost/master/Sdaughter1ONL/dic28_Sd1talkONL.txta16b9852ccaad69079012bc2c5bf2b44size=2855
 file,ghost/master/Sdaughter1ONL/dic31_Sd1TimeONL.txt950ca0c8834f3f48d6f4d87e20688a0bsize=3374
 file,ghost/master/Sdaughter1ONL/dic33_Sd1SawariONL.txt35288d6948317c93b3fba36461dd0828size=40569
@@ -122,7 +122,7 @@ file,ghost/master/Sdaughter2/dic44_Sd2Sawari.txte13317764751c9a0e8b60d2592e33ce
 file,ghost/master/Sdaughter2/dic45_Sd2SawariM.txta475cfd22335276270271ad757d65e99size=8356
 file,ghost/master/Sdaughter2/dic46_Sd2Time.txt579ddb07b7abed76693a338f7e4407e0size=3892
 file,ghost/master/Sdaughter2ONL/dic41_Sd2BaseONL.txt5fe896988e00db0f936e0dddfe788563size=581
-file,ghost/master/Sdaughter2ONL/dic42_Sd2MenuONL.txt4fbdf20fca63b69d3d0bb7f3ac01e91fsize=3813
+file,ghost/master/Sdaughter2ONL/dic42_Sd2MenuONL.txtbbed844cd1a7da558f572bc3bb2d12a7size=3961
 file,ghost/master/Sdaughter2ONL/dic43_Sd2talkONL.txt48613e0614c8579e21cac2aad68aecf2size=3145
 file,ghost/master/Sdaughter2ONL/dic44_Sd2SawariONL.txtbe864e355f547143b0c315e617128e76size=39829
 file,ghost/master/Sdaughter2ONL/dic46_Sd2TimeONL.txt61b43f5b278491e2275e1257b7bbf744size=3089
@@ -133,7 +133,7 @@ file,ghost/master/Sdaughter3/dic59_Sd3Sawari.txt926fed8a99b45b510293a5648e66200
 file,ghost/master/Sdaughter3/dic60_Sd3SawariM.txt1f03df5c49bb1fb9b8eab5d203fcd064size=8360
 file,ghost/master/Sdaughter3/dic61_Sd3Time.txt003a6be2bf0f7fd1c9bb4deaae52d26dsize=3408
 file,ghost/master/Sdaughter3ONL/dic56_Sd3BaseONL.txt9dd8d15904e7aefcc6b00a53a6e16a96size=555
-file,ghost/master/Sdaughter3ONL/dic57_Sd3MenuONL.txt36d3bbbf236ff1b02ff47fc377f361a8size=3324
+file,ghost/master/Sdaughter3ONL/dic57_Sd3MenuONL.txtb4d7a5cc46e8d47dc6476cf4ef8c6010size=3472
 file,ghost/master/Sdaughter3ONL/dic58_Sd3talkONL.txt115925b6f893d617c728bc15132a0616size=3340
 file,ghost/master/Sdaughter3ONL/dic59_Sd3SawariONL.txt2851e32b1324ec21c3728bbeea882987size=40655
 file,ghost/master/Sdaughter3ONL/dic61_Sd3TimeONL.txt4595f9c4f335f916069a074c17b69266size=3351
