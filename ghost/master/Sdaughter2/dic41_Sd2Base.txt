@@ -21,3 +21,5 @@
 
 ＊OnBoot
 ＞娘２成起動
+＊OnSatoriBoot
+＞娘２成起動トーク
