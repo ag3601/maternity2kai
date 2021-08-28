@@ -18,8 +18,8 @@ animation15.pattern0,overlay,20000,0,0,0
 animation100.interval,bind
 animation100.pattern0,add,20200,0,65,295
 
-animation400.interval,bind
-animation400.pattern0,add,21001,0,60,285
+animation4000.interval,bind
+animation4000.pattern0,add,21001,0,60,285
 animation5000.interval,bind
 animation5000.pattern0,add,21000,0,55,220
 }

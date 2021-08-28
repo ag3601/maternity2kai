@@ -203,13 +203,13 @@ char2.bindgroup200.name,娘ソックス,黒タイツ
 char2.bindgroup200.default,1
 char2.bindgroup201.name,娘ソックス,黒タイツやぶれ
 
-char2.bindgroup400.name,娘服下,娘初期服下
-char2.bindgroup400.default,1
-char2.bindgroup500.name,娘服上,娘初期服上
-char2.bindgroup500.default,1
+char2.bindgroup4000.name,娘服下,娘初期服下
+char2.bindgroup4000.default,1
+char2.bindgroup5000.name,娘服上,娘初期服上
+char2.bindgroup5000.default,1
 
-char2.bindgroup600.name,娘服上上,娘初期服上上
-char2.bindgroup600.default,1
+char2.bindgroup6000.name,娘服上上,娘初期服上上
+char2.bindgroup6000.default,1
 
 char2.bindgroup800.name,乳首,裸乳首
 

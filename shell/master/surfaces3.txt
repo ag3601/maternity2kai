@@ -542,13 +542,13 @@ animation200.pattern0,add,50300,0,45,260
 animation201.interval,bind
 animation201.pattern0,add,50301,0,45,260
 
-animation400.interval,bind
-animation400.pattern0,add,51001,0,40,260
-animation500.interval,bind
-animation500.pattern0,add,51000,0,20,140
+animation4000.interval,bind
+animation4000.pattern0,add,51001,0,40,260
+animation5000.interval,bind
+animation5000.pattern0,add,51000,0,20,140
 
-animation600.interval,bind
-animation600.pattern0,add,51100,0,20,140
+animation6000.interval,bind
+animation6000.pattern0,add,51100,0,20,140
 
 animation800.interval,bind
 animation800.pattern0,add,12001,0,0,0
@@ -1453,13 +1453,13 @@ animation200.pattern0,add,50302,0,65,225
 animation201.interval,bind
 animation201.pattern0,add,50303,0,65,225
 
-animation400.interval,bind
-animation400.pattern0,add,51003,0,60,225
-animation500.interval,bind
-animation500.pattern0,add,51002,0,50,120
+animation4000.interval,bind
+animation4000.pattern0,add,51003,0,60,225
+animation5000.interval,bind
+animation5000.pattern0,add,51002,0,50,120
 
-animation600.interval,bind
-animation600.pattern0,add,51101,0,50,120
+animation6000.interval,bind
+animation6000.pattern0,add,51101,0,50,120
 
 animation800.interval,bind
 animation800.pattern0,add,12001,0,0,0
