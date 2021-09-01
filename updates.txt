@@ -9,13 +9,13 @@ file,ghost/master/daughter1/dic23_d1Sawari.txt3137c9a67baa159d4f9c1f8837dd96fc
 file,ghost/master/daughter1/dic24_d1SawariM.txt78f6752d350fc7d9d372dc60e7a20b04size=11288date=2021-06-22T00:04:07
 file,ghost/master/daughter1/dic25_d1Time.txtfa6a0a4935f69d8c625eb8a6eed40847size=2590date=2021-07-14T03:21:00
 file,ghost/master/daughter2/dic35_d2Base.txt93ae0e912fc7ed1ab75fa18dbd0e8e25size=347date=2021-08-28T19:37:10
-file,ghost/master/daughter2/dic36_d2Menu.txt62c1c11e001ee881be396e7efe432cf2size=4780date=2021-07-14T03:21:00
+file,ghost/master/daughter2/dic36_d2Menu.txt9f9eb0aa874fdc8160cb098a79413ecdsize=4776date=2021-09-01T03:32:16
 file,ghost/master/daughter2/dic37_d2talk.txtf33bc048c76ffee11afaa414b22ddd7bsize=5800date=2021-02-04T15:41:24
 file,ghost/master/daughter2/dic38_d2Sawari.txt5a179d62770e47d8d90b17d33e99e04csize=5131date=2021-02-04T20:03:38
 file,ghost/master/daughter2/dic39_d2SawariM.txt16e51590ddb3251beb723d720b36a1fbsize=8440date=2021-02-05T00:01:24
 file,ghost/master/daughter2/dic40_d2Time.txt47a0067764a72b81b142f65dcaff61a3size=2535date=2021-07-14T03:21:00
 file,ghost/master/daughter3/dic50_d3Base.txtb76e038e36121fae2580b9457aa569bcsize=321date=2021-07-14T03:21:00
-file,ghost/master/daughter3/dic51_d3Menu.txtac33bcc6e49e29984bdd523d7eb0c8e6size=5510date=2021-07-14T03:21:00
+file,ghost/master/daughter3/dic51_d3Menu.txtbded4752fe4ab35ac8ef6beff87a359dsize=5506date=2021-09-01T03:32:16
 file,ghost/master/daughter3/dic52_d3talk.txt469fe7f780e7fc2354fda07e9c9617a2size=5975date=2021-02-04T15:41:24
 file,ghost/master/daughter3/dic53_d3Sawari.txta9ab58604ee1345f00f8e7d28968022esize=4910date=2021-02-05T01:02:34
 file,ghost/master/daughter3/dic54_d3SawariM.txt16e51590ddb3251beb723d720b36a1fbsize=8440date=2021-02-05T00:01:24
@@ -48,9 +48,9 @@ file,ghost/master/makana/dic02_Menu.txt010050b3c0371e0813b1ecb3eadf1711size=10
 file,ghost/master/makana/dic03_Menu2.txt82269756086d2522d71738319b2649dasize=10895date=2021-02-04T15:41:24
 file,ghost/master/makana/dic05_Communicate.txt0e6f0a941f199759e84d294c644fe621size=8690date=2021-08-28T05:12:42
 file,ghost/master/makana/dic06_Time.txt71946a1045d17678af499b85fc792f57size=12336date=2021-07-27T03:19:16
-file,ghost/master/makana/dic07_Sawari1.txt97bf8add3554dbf160e08e2babf361e3size=48049date=2021-07-27T03:19:16
-file,ghost/master/makana/dic08_Sawari2.txtabd82ff9b68ac926664d3c1a61b6df40size=47691date=2021-07-27T03:19:16
-file,ghost/master/makana/dic09_Sawari3.txt3bf367366b5c51ddd5aa9bcb9ae233f6size=31046date=2021-02-04T15:41:24
+file,ghost/master/makana/dic07_Sawari1.txt0966019897d00459bbc327bc73ddf22bsize=48387date=2021-09-01T03:41:58
+file,ghost/master/makana/dic08_Sawari2.txt9045c13d4c02425cf346c74eb995e256size=47829date=2021-09-01T03:41:58
+file,ghost/master/makana/dic09_Sawari3.txtf6e917d51b651167a6e481586a62ea90size=32277date=2021-09-01T03:41:58
 file,ghost/master/makana/dic10_talk.txt2563b770c321c130cc36c023c4cd8ef4size=21385date=2021-07-14T03:21:00
 file,ghost/master/makana/dic11_talkEX.txtdf6c5ebbfa6ca690be2a5bfc356c84b0size=2739date=2021-02-04T15:41:24
 file,ghost/master/makana/dic12_Babytalk.txtb6e69a14c371f06ad6bd085e878cc715size=1447date=2021-02-04T15:41:24
@@ -104,7 +104,7 @@ file,ghost/master/satori.dllf5610fc26a0a620dc4ed6296a91acabcsize=684032date=2
 file,ghost/master/satori_conf.txtacba318be478d25cfff6e719197a604fsize=10205date=2021-07-14T03:21:00
 file,ghost/master/satori_license.txt5852f65befa164df1c32859ef2aa724bsize=928date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter1/dic26_Sd1Base.txtbb7cc16989df7cd1ad5df63761908df2size=353date=2021-07-18T00:43:33
-file,ghost/master/Sdaughter1/dic27_Sd1Menu.txtaa2e8fa89d0fe4677e1bd33f8dea96d4size=5439date=2021-07-14T03:21:00
+file,ghost/master/Sdaughter1/dic27_Sd1Menu.txt05abaa86169871004031aae3b6045d08size=5435date=2021-09-01T03:32:16
 file,ghost/master/Sdaughter1/dic28_Sd1talk.txta6e6fab553b3209de710d8d67c241b2dsize=7704date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter1/dic29_Sd1Sawari.txtcb0f837186ebbb2cfd56da9a68ac5b41size=5675date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter1/dic30_Sd1SawariM.txt9420b51e9b5fcf431b0a9374c3cc6607size=8358date=2021-02-05T00:01:24
@@ -117,7 +117,7 @@ file,ghost/master/Sdaughter1ONL/dic28_Sd1talkONL.txt026195fc2558bf969f61b8d4740
 file,ghost/master/Sdaughter1ONL/dic31_Sd1TimeONL.txt950ca0c8834f3f48d6f4d87e20688a0bsize=3374date=2021-07-14T03:21:00
 file,ghost/master/Sdaughter1ONL/dic33_Sd1SawariONL.txt35288d6948317c93b3fba36461dd0828size=40569date=2021-02-05T01:00:46
 file,ghost/master/Sdaughter2/dic41_Sd2Base.txtba495e022c3c90bdeb67b338616f6217size=361date=2021-07-18T00:43:33
-file,ghost/master/Sdaughter2/dic42_Sd2Menu.txt843726b1beb3a5198952f1a89ad1e541size=5635date=2021-07-14T03:21:00
+file,ghost/master/Sdaughter2/dic42_Sd2Menu.txt322614c3be6c48a1e7601b4d070391d4size=5631date=2021-09-01T03:32:16
 file,ghost/master/Sdaughter2/dic43_Sd2talk.txta4bf5d97b06edf35166fcc77432cf846size=5350date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter2/dic44_Sd2Sawari.txtbd6d15a355d959961d5aed402be228e7size=4805date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter2/dic45_Sd2SawariM.txta475cfd22335276270271ad757d65e99size=8356date=2021-02-05T00:01:24
@@ -128,7 +128,7 @@ file,ghost/master/Sdaughter2ONL/dic43_Sd2talkONL.txta940f2d388dc71e8a15e1158679
 file,ghost/master/Sdaughter2ONL/dic44_Sd2SawariONL.txtbe864e355f547143b0c315e617128e76size=39829date=2021-02-05T01:00:46
 file,ghost/master/Sdaughter2ONL/dic46_Sd2TimeONL.txt61b43f5b278491e2275e1257b7bbf744size=3089date=2021-07-14T03:21:00
 file,ghost/master/Sdaughter3/dic56_Sd3Base.txta66e04dcbca13b6581a072f3ea96ecd4size=327date=2021-07-14T03:21:00
-file,ghost/master/Sdaughter3/dic57_Sd3Menu.txt6ba332feb8c2f8449a1daf6596150cc7size=5494date=2021-07-14T03:21:00
+file,ghost/master/Sdaughter3/dic57_Sd3Menu.txt12417fddef9698abce7af6adb867e847size=5478date=2021-09-01T03:32:16
 file,ghost/master/Sdaughter3/dic58_Sd3talk.txt8454a32ded8ebbc55ab0405e7c1a4df1size=15752date=2021-02-04T15:41:24
 file,ghost/master/Sdaughter3/dic59_Sd3Sawari.txt926fed8a99b45b510293a5648e662003size=5918date=2021-02-05T01:00:46
 file,ghost/master/Sdaughter3/dic60_Sd3SawariM.txt1f03df5c49bb1fb9b8eab5d203fcd064size=8360date=2021-02-05T00:01:24
