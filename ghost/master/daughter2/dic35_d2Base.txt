@@ -21,5 +21,3 @@
 
 –OnBoot
 „–º‚Q‹N“®
-–OnSatoriBoot
-„–º‚Q‹N“®
