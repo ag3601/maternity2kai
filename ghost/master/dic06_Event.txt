@@ -146,8 +146,6 @@ shiori互換dll『里々（さとり）』用辞書
 
 ＊OnNarCreated
 ：（１）完成しました。
-
-
 ＊OnNarCreating
 ：（２１）nar作成中です……。
 
